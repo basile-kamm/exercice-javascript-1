@@ -44,8 +44,16 @@ h1 {
   background: var(--yellow-color);
 }
 
+.box.change-color.blue {
+  background: var(--blue-color);
+}
+
 .box.toggle-color {
   background: var(--orange-color);
+}
+
+.box.toggle-color.toggle2 {
+  background: var(--red-color);
 }
 
 .box.trigger {
@@ -56,10 +64,18 @@ h1 {
   background: var(--red-color);
 }
 
+.box.target.triggerd {
+  visibility: hidden;
+}
+
 .box.trigger-all {
   background: var(--green-color);
 }
 
 .box.trigger-all-self {
   background: var(--blue-color);
+}
+
+.box.trigger-all-self.green {
+  background: var(--green-color);
 }
